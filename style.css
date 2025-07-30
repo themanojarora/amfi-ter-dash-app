@@ -1,0 +1,149 @@
+/* === Header === */
+.header-row {
+    background-color: #4a6cd4;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.logo-img {
+    height: 60px;
+}
+
+.header-title {
+    color: white;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+/* === Form controls === */
+.form-label {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.date-picker-single {
+    height: 30px;
+    width: 100%;
+}
+
+.dropdown {
+    height: 30px;
+    font-size: 13px;
+}
+
+.dropdown-lineheight {
+    line-height: 2.2;
+}
+
+.mode-dropdown {
+    background-color: white;
+    height: 30px;
+    font-size: 13px;
+}
+
+/* === Credit link === */
+.credit-col {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.credit-link {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* === Summary section === */
+.summary-section {
+    margin-top: 20px;
+}
+
+.summary-row {
+    margin-top: 0;
+    /* spacing handled by container */
+}
+
+.summary-left {
+    background-color: #f0f3f5;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.summary-right {
+    background-color: #f0f3f5;
+    border: 1px solid #dee2e6;
+    padding: 5px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.summary-box {
+    background-color: #00002f;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.summary-box-text {
+    color: white;
+}
+
+.summary-box-large {
+    font-size: 20px;
+    margin: 0;
+}
+
+.summary-box-col1 {
+    max-width: 180px;
+    height: 100%;
+}
+
+.summary-box-col2 {
+    max-width: 250px;
+}
+
+/* === Summary table === */
+.table-wrapper {
+    width: 100%;
+}
+
+.table-header {
+    text-align: center;
+}
+
+.table-th {
+    width: 20%;
+}
+
+.table-td-bold {
+    font-weight: bold;
+}
+
+.summary-cell {
+    background-color: #00002f;
+    padding: 3px;
+    text-align: center;
+}
+
+.summary-cell-text {
+    color: white;
+    margin: 0;
+}
+
+/* === Graphs === */
+.graph-row {
+    margin-top: 20px;
+}
+
+.graph-chart {
+    height: 500px;
+    padding: 10px;
+    background-color: #f0f3f5;
+    border: 1px solid #dee2e6;
+    margin: 5px;
+}
